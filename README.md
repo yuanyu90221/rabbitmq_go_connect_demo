@@ -19,5 +19,7 @@ This producer publish a the data to the rabbitmq with queuename = 'add'
 the data contains 2 integer numbers, Number1, Number2
 
 ## Advantage of this pub/sub pattern
+
 1 All the request will be queue on ampq until the consumer consume, less data loss
+
 2 consumer and producer don't have to be connected directly and can be asynchronize handle
