@@ -23,3 +23,6 @@ the data contains 2 integer numbers, Number1, Number2
 1 All the request will be queue on ampq until the consumer consume, less data loss
 
 2 consumer and producer don't have to be connected directly and can be asynchronize handle
+
+## reference article
+[work-queue-with-go-and-rabbitmq](https://medium.com/@masnun/work-queue-with-go-and-rabbitmq-b8c295cde861)
